@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+img {
+    max-height: 100%;
+}
+
+@font-face { font-family: Futura; src: url(/src/FuturaPTLight.otf)} 
+html {
+    margin: 0;
+}
+
+body {
+    font-family: Futura;
+    font-size: 22px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    margin:0;
+    min-height: fit-content;
+}
+.bg-body {
+width: 100%;
+min-height: 100%;
+object-fit: cover;
+display:block;
+position: fixed;
+top:0;
+bottom: 0;
+z-index: -1;
+opacity: 0.5;
+}
+.nav {
+    margin: 0.5em 0;
+    margin-top: .5em;
+    padding: 0.5em;
+    text-align: center;
+
+}
+.nav-btn {
+width: 130px;
+height: 65px;
+font-size: 1.5rem;
+font-weight: 700;
+background: none;
+color: white;
+border-radius: 15%;
+border: 3px rgb(0, 113, 128) solid
+    
+}
+
+.nav-btn:hover {
+    background: white;
+    color: black;
+    opacity: .7;
+    
+}
+
+.header {
+    max-width: 25em;
+    text-align: center;
+    margin: auto;
+    
+}
+.container {
+    margin:0;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.button {
+    width:180px;
+    height: 70px;
+    font-family: Futura;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    margin: auto;
+
+}
+.button:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.ic1, .ic2 {
+    width: 50px;
+    margin-right: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ic1:hover,.ic2:hover {
+    opacity: 0.7;
+}
+
+/* Manu Stylin */
+
+.hide {
+    display: none;
+}
+
+.menu {
+    max-width: 25em;
+    margin: auto;
+}
+.menu-header {
+    margin: 1em auto;
+    border: 3px rgb(0, 113, 128) solid;
+    padding: 0.3em;
+    border-radius: 09%;
+    transform: translateZ(2em);
+}
+.menu-header h1 {
+    width: max-content;
+    margin: auto;
+}
+.Honey-Tea {
+    max-width: 25em;
+    margin: auto;
+    border: 3px rgb(0, 113, 128) solid;
+    padding: 2em;
+    border-radius: 07%;
+    transform: translateZ(2em);
+}
+
+.honey-tea-img {
+    width: 11em;
+    height : 11em;
+    display: inline-block;
+    right: 0px;
+    
+
+}
